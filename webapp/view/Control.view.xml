@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="App.CustomControls.controller.Control"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:custom="App.CustomControls.controls">
+	<App>
+		<pages>
+			<Page title="Custom Controls">
+				<content>
+					<custom:ProductRating class="sapUiSmallMarginBeginEnd" change="onRatingChange"/>
+					<custom:Button text = "Click Me" hovver = "fnHover" width = "500px" height = "75px"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
