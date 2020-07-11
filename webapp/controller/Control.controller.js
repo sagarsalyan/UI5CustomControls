@@ -22,7 +22,11 @@ sap.ui.define([
 		},
 		fnHover : function(oEvent){
 			alert("Clicked");
-		}
+		},
+        onBuy : function(oEvent){
+            var oBook = oEvent.getSource();
+            alert("Buy event received: '" + oBook.getTitle() + "' by " + oBook.getAuthor());
+        },
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

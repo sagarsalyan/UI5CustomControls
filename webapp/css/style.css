@@ -7,3 +7,10 @@
 .myAppDemoWTProductRating .sapMRI {
 	vertical-align: initial;
 }
+.myShadowBox {
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    padding: 4px;
+}

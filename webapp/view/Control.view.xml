@@ -4,8 +4,23 @@
 		<pages>
 			<Page title="Custom Controls">
 				<content>
-					<custom:ProductRating class="sapUiSmallMarginBeginEnd" change="onRatingChange"/>
-					<custom:Button text = "Click Me" hovver = "fnHover" width = "500px" height = "75px"/>
+					<HBox>
+						<custom:ProductRating class="sapUiSmallMarginBeginEnd" change="onRatingChange"/>
+					</HBox>
+					<HBox>
+						<custom:Button text="Click Me" hovver="fnHover" width="500px" height="75px"/>
+					</HBox>
+					<HBox>
+						<custom:ShadowBox width="200px">
+							<Label text="Well well well"/>
+							<Input value="we have a container"/>
+						</custom:ShadowBox>
+					</HBox>
+					<HBox>
+						<custom:Book id="myBook" height="auto" title="My Book in XMLView" author="My Author" description="This is a Book about..." price="11.99"
+							currencyCode="USD" comments="Great book!,A must have!,I liked chapter 6 the most!" numberOfPages="349"
+							coverPictureUrl="https://lorempixel.com/150/200/" expressDelivery="true" buy="onBuy"/>
+					</HBox>
 				</content>
 			</Page>
 		</pages>
