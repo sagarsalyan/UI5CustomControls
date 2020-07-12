@@ -5,7 +5,7 @@
 			<Page title="Custom Controls">
 				<content>
 					<HBox>
-						<custom:ProductRating class="sapUiSmallMarginBeginEnd" change="onRatingChange"/>
+						<custom:ProductRating class="sapUiSmallMarginBeginEnd" value="2" change="onRatingChange"/>
 					</HBox>
 					<HBox>
 						<custom:Button text="Click Me" hovver="fnHover" width="500px" height="75px"/>
@@ -19,7 +19,7 @@
 					<HBox>
 						<custom:Book id="myBook" height="auto" title="My Book in XMLView" author="My Author" description="This is a Book about..." price="11.99"
 							currencyCode="USD" comments="Great book!,A must have!,I liked chapter 6 the most!" numberOfPages="349"
-							coverPictureUrl="App.CustomControls.images.lostbook.jpg" expressDelivery="true" buy="onBuy"/>
+							coverPictureUrl="images/lostbook.jpg" expressDelivery="true" buy="onBuy"/>
 					</HBox>
 				</content>
 			</Page>

@@ -117,6 +117,11 @@ sap.ui.define([
 			oCoverPic.addStyleClass("nsBookCvrPic");
 			this.setCoverPicture(oCoverPic);
 		},
+		setCoverPictureUrl:function(picUrl){
+			//automatically called
+			this.setProperty("coverPictureUrl", picUrl, true);
+			this.getAggregation("coverPicture").setSrc(picUrl); //this.getCoverPicture().setSrc(sVal);
+		},
 		onAfterRendering: function () {
 			//called after instance has been rendered (it's in the DOM)
 		},
