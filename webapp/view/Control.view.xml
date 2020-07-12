@@ -19,7 +19,7 @@
 					<HBox>
 						<custom:Book id="myBook" height="auto" title="My Book in XMLView" author="My Author" description="This is a Book about..." price="11.99"
 							currencyCode="USD" comments="Great book!,A must have!,I liked chapter 6 the most!" numberOfPages="349"
-							coverPictureUrl="https://lorempixel.com/150/200/" expressDelivery="true" buy="onBuy"/>
+							coverPictureUrl="App.CustomControls.images.lostbook.jpg" expressDelivery="true" buy="onBuy"/>
 					</HBox>
 				</content>
 			</Page>
