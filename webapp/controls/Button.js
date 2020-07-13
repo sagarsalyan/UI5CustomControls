@@ -25,7 +25,7 @@ sap.ui.define([
 		init : function(){
 			
 		},
-		onmouseover : function(){
+		onclick : function(){
 			// this.fireHovver(); 
 			this.fireEvent('hovver');
 		},
