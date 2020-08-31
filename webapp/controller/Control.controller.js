@@ -27,6 +27,9 @@ sap.ui.define([
             var oBook = oEvent.getSource();
             alert("Buy event received: '" + oBook.getTitle() + "' by " + oBook.getAuthor());
         },
+        onlinkpress:function(oEvent){
+        	debugger
+        }
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

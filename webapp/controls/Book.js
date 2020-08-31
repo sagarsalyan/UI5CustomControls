@@ -120,7 +120,7 @@ sap.ui.define([
 		setCoverPictureUrl:function(picUrl){
 			//automatically called
 			this.setProperty("coverPictureUrl", picUrl, true);
-			this.getAggregation("coverPicture").setSrc(picUrl); //this.getCoverPicture().setSrc(sVal);
+			this.getAggregation("coverPicture").setSrc(picUrl); //this.getCoverPicture().setSrc(picUrl);
 		},
 		onAfterRendering: function () {
 			//called after instance has been rendered (it's in the DOM)

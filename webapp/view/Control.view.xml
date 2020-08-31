@@ -21,6 +21,9 @@
 							currencyCode="USD" comments="Great book!,A must have!,I liked chapter 6 the most!" numberOfPages="349"
 							coverPictureUrl="images/lostbook.jpg" expressDelivery="true" buy="onBuy"/>
 					</HBox>
+					<HBox>
+						<custom:ExtLink text="Facebook" url="http://www.facebook.com" press="onlinkpress" href="http://www.facebook.com"/>
+					</HBox>
 				</content>
 			</Page>
 		</pages>
