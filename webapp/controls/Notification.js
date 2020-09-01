@@ -7,6 +7,9 @@ sap.ui.define([
 	return Control.extend("App.CustomControls.controls.Notification", {
 		metadata: {
 			properties: {
+				"text":{
+					type:"string"
+				},
 				"icon": {
 					type: "string"
 				},
@@ -41,6 +44,10 @@ sap.ui.define([
 		setIcon: function (icon) {
 			this.setProperty("icon", icon);
 			this.getAggregation("_button").setIcon(icon);
+		},
+		setText: function (text) {
+			this.setProperty("text", text);
+			this.getAggregation("_button").setText(text);
 		},
 		setCount: function (count) {
 			this.setProperty("count", count);
