@@ -24,6 +24,9 @@
 					<HBox>
 						<custom:ExtLink text="Facebook" url="http://www.facebook.com" press="onlinkpress" href="http://www.facebook.com"/>
 					</HBox>
+					<HBox>
+						<custom:Notification icon="sap-icon://world" count="3"/>
+					</HBox>
 				</content>
 			</Page>
 		</pages>
