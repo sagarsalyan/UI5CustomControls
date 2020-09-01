@@ -8,7 +8,7 @@ sap.ui.define([
 		metadata: {
 			properties: {
 				"icon": {
-					type: "sap.ui.core.Icon"
+					type: "string"
 				},
 				"count": {
 					type: "int"
