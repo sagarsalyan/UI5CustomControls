@@ -18,8 +18,13 @@
 					</HBox>
 					<HBox>
 						<custom:Book id="myBook" height="auto" title="My Book in XMLView" author="My Author" description="This is a Book about..." price="11.99"
-							currencyCode="USD" comments="Great book!,A must have!,I liked chapter 6 the most!" numberOfPages="349"
-							coverPictureUrl="images/lostbook.jpg" expressDelivery="true" buy="onBuy"/>
+							currencyCode="USD" comments="Great book!,A must have!,I liked chapter 6 the most!" numberOfPages="349" coverPictureUrl="images/lostbook.jpg"
+							expressDelivery="true" buy="onBuy"/>
+					</HBox>
+					<HBox>
+						<custom:Select width="50%" newValueCreated="handleNewValue" items="{/}">
+							<core:Item key="{CountryId}" text="{Name}"/>
+						</custom:Select>
 					</HBox>
 					<HBox>
 						<custom:ExtLink text="Facebook" url="http://www.facebook.com" press="onlinkpress" href="http://www.facebook.com"/>
