@@ -5,6 +5,9 @@
 			<Page title="Custom Controls">
 				<content>
 					<HBox>
+						<custom:ObjectSpinner icon="sap-icon://refresh" class="sapUiSmallMarginBottom" text="Inverted Indication8" spin="true" active="true" inverted="true" state="Indication08"/>
+					</HBox>
+					<HBox>
 						<custom:ProductRating class="sapUiSmallMarginBeginEnd" value="2" change="onRatingChange"/>
 					</HBox>
 					<HBox>
