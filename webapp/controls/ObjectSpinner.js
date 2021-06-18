@@ -37,9 +37,7 @@ sap.ui.define([
 				var icon = this.$().find(".sapMObjStatusIcon");
 				if (icon.length > 0) {
 
-					icon.animate({
-						transform:'rotate(180deg)'
-					},5000);
+					icon.rotate(45);
 
 				}
 

@@ -1,11 +1,20 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="App.CustomControls.controller.Control"
-	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:custom="App.CustomControls.controls">
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:custom="App.CustomControls.controls"
+	xmlns:mySLiderTooltip="App.CustomControls.controls.MySliderTooltip">
 	<App>
 		<pages>
 			<Page title="Custom Controls">
 				<content>
 					<HBox>
-						<custom:ObjectSpinner icon="sap-icon://refresh" class="sapUiSmallMarginBottom" text="Inverted Indication8" spin="true" active="true" inverted="true" state="Indication08"/>
+						<Slider class="sapUiSmallMarginTop" showAdvancedTooltip="true" width="200px">
+							<customTooltips>
+								<mySLiderTooltip:MySliderTooltip/>
+							</customTooltips>
+						</Slider>
+					</HBox>
+					<HBox>
+						<custom:ObjectSpinner icon="sap-icon://refresh" class="sapUiSmallMarginBottom" text="Inverted Indication8" spin="true" active="true"
+							inverted="true" state="Indication08"/>
 					</HBox>
 					<HBox>
 						<custom:ProductRating class="sapUiSmallMarginBeginEnd" value="2" change="onRatingChange"/>
